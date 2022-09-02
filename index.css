@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container .sc{
+    display: flex;
+    width: 70px;
+    height: 70px;
+    background-color: black;
+    color: red;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.container .btns {
+    font-size: 12px;
+    border: 1px solid #9AABD8;
+    padding: 4px 6px;
+    cursor: pointer;
+    outline: none;
+}
+
+.container .resetBtn {
+    position: absolute;
+    bottom: 10px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    padding: 3px 10px;
+    border-radius: 5px ;
+    transition: all .4s ease;
+}
+
+.container .resetBtn:hover {
+    background: transparent;
+    color: black;
+    border: 1px solid black;
+}
